@@ -24,7 +24,7 @@ export default class FormDemo1 extends Component {
             type="text"
           ></input>
           <h3>User Name is {this.state.userName}</h3>
-
+          <br />
           <h3>City</h3>
           <input
             onChange={this.onChangeHandler}
